@@ -1,0 +1,105 @@
+.gallery-card1-gallery-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-card1-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-card1-text {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-family: "Tahoma";
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.gallery-card1-text1 {
+  color: var(--dl-color-gray-500);
+  align-self: flex-start;
+  font-family: "Tahoma";
+}
+
+.gallery-card1-root-class-name1 {
+  width: 100%;
+  height: var(--dl-size-size-xxlarge);
+  margin-top: 29px;
+}
+
+
+
+
+@media(max-width: 767px) {
+  .gallery-card1-gallery-card {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .gallery-card1-image {
+    height: 10rem;
+  }
+}
+
+.game-design-pages-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.game-design-pages-text {
+  top: 24px;
+  left: 0px;
+  color: #ffffff;
+  right: 0px;
+  width: 821px;
+  height: 135px;
+  margin: auto;
+  position: absolute;
+  font-size: 4em;
+  font-family: "Tahoma";
+}
+.game-design-pages-gallery {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-unit);
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  transition: 0.3s;
+  padding-top: 150px;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  animation-name: fadeIn;
+  padding-bottom: var(--dl-space-space-threeunits);
+  animation-delay: 0s;
+  background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.2) 0.00%,rgba(0, 0, 0, 0.2) 13.00%,rgba(87, 185, 204, 0.8) 100.00%);
+  animation-duration: 2.3s;
+  animation-direction: normal;
+  grid-template-columns: 1fr 1fr 1fr;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+@media(max-width: 991px) {
+  .game-design-pages-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .game-design-pages-gallery {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .game-design-pages-gallery {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
