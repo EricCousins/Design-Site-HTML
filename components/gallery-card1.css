@@ -22,16 +22,19 @@
   align-self: flex-start;
   font-family: "Tahoma";
 }
-
-.gallery-card1-root-class-name1 {
+.gallery-card1-root-class-name {
   width: 100%;
-  height: var(--dl-size-size-xxlarge);
-  margin-top: 29px;
+  height: 100%;
 }
-
-
-
-
+.gallery-card1-root-class-name2 {
+  width: auto;
+}
+.gallery-card1-root-class-name1 {
+  width: auto;
+}
+.gallery-card1-root-class-name3 {
+  width: auto;
+}
 @media(max-width: 767px) {
   .gallery-card1-gallery-card {
     flex-direction: column;
