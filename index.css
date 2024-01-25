@@ -15,8 +15,6 @@
   width: 155px;
   height: 152px;
   object-fit: cover;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
   border-top-right-radius: var(--dl-radius-radius-radius4);
 }
 .home-text01 {
