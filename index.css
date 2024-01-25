@@ -12,7 +12,7 @@
   position: absolute;
 }
 .home-image {
-  width: 100%;
+  width: 155px;
   height: 152px;
   object-fit: cover;
   border-color: var(--dl-color-gray-black);
