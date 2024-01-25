@@ -50,6 +50,7 @@
 }
 
 
+
 @media(max-width: 479px) {
   .gallery-card31-text {
     align-self: center;
@@ -80,6 +81,7 @@
 .unity-games-text {
   font-size: 3rem;
   text-align: center;
+  font-family: "Tahoma";
 }
 .unity-games-text1 {
   color: var(--dl-color-gray-700);
