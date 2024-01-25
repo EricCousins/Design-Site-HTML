@@ -8,8 +8,15 @@
 }
 .home-link {
   top: 176px;
-  right: 94px;
+  right: var(--dl-space-space-fourunits);
   position: absolute;
+  text-align: right;
+}
+.home-link1 {
+  top: 208px;
+  right: var(--dl-space-space-fourunits);
+  position: absolute;
+  text-align: right;
 }
 .home-image {
   width: 155px;
@@ -202,11 +209,6 @@
   font-style: normal;
   font-weight: 500;
 }
-.home-link1 {
-  top: 208px;
-  right: 93px;
-  position: absolute;
-}
 @media(max-width: 767px) {
   .home-link {
     top: 173px;
@@ -215,5 +217,15 @@
   .home-link1 {
     top: 173px;
     right: 50px;
+  }
+}
+@media(max-width: 479px) {
+  .home-link {
+    top: 46px;
+    right: 48px;
+  }
+  .home-link1 {
+    top: 68px;
+    right: 48px;
   }
 }
