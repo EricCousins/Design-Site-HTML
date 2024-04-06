@@ -27,7 +27,7 @@
   font-family: "Tahoma";
 }
 .home-link {
-  top: 176px;
+  top: 53px;
   color: #ff7f7f;
   right: var(--dl-space-space-fourunits);
   position: absolute;
@@ -35,7 +35,7 @@
   text-align: right;
 }
 .home-link1 {
-  top: 208px;
+  top: 100px;
   color: #4567c1;
   right: var(--dl-space-space-fourunits);
   position: absolute;
