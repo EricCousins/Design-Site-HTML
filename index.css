@@ -15,6 +15,7 @@
   width: 1522px;
   height: 1113px;
   margin: auto;
+  z-index: 90;
   position: absolute;
   object-fit: cover;
   margin-right: auto;
