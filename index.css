@@ -9,26 +9,13 @@
   background-color: var(--dl-color-gray-black);
 }
 .home-image {
-  top: -2px;
-  left: 0px;
-  right: 0px;
-  width: 1522px;
-  height: 1113px;
-  margin: auto;
-  z-index: 90;
-  position: absolute;
-  object-fit: cover;
-  margin-right: auto;
-  border-top-right-radius: var(--dl-radius-radius-radius4);
-}
-.home-image1 {
   top: 36px;
   left: 0px;
   right: 0px;
   width: 652px;
   height: 152px;
   margin: auto;
-  z-index: 100;
+  z-index: 120;
   position: absolute;
   object-fit: cover;
   border-top-right-radius: var(--dl-radius-radius-radius4);
@@ -60,6 +47,7 @@
 .home-dropdown {
   cursor: pointer;
   display: inline-block;
+  z-index: 100;
   position: relative;
   margin-top: 200px;
   border-radius: var(--dl-radius-radius-radius2);
@@ -211,18 +199,26 @@
 .home-container2 {
   width: 561px;
   height: 421px;
-  z-index: 100;
+  z-index: 120;
   margin-top: 120px;
 }
 .home-container3 {
   display: contents;
 }
+.home-image1 {
+  top: -2px;
+  left: 0px;
+  right: 0px;
+  width: 1522px;
+  height: 1113px;
+  margin: auto;
+  z-index: 0;
+  position: absolute;
+  object-fit: cover;
+  margin-right: auto;
+  border-top-right-radius: var(--dl-radius-radius-radius4);
+}
 @media(max-width: 1600px) {
-  .home-image {
-    left: 0px;
-    right: 0px;
-    margin: auto;
-  }
   .home-link {
     top: 95px;
     right: 90px;
@@ -243,13 +239,13 @@
   .home-dropdown-list {
     display: none;
   }
-}
-@media(max-width: 1200px) {
-  .home-image {
+  .home-image1 {
     left: 0px;
     right: 0px;
     margin: auto;
   }
+}
+@media(max-width: 1200px) {
   .home-link {
     top: 141px;
     right: 56px;
@@ -261,14 +257,16 @@
   .home-dropdown-list {
     display: none;
   }
+  .home-image1 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
 }
 @media(max-width: 991px) {
   .home-container {
     align-self: center;
     align-items: center;
-  }
-  .home-image {
-    left: -192px;
   }
   .home-link {
     top: 207px;
@@ -288,9 +286,12 @@
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius4);
   }
+  .home-image1 {
+    left: -192px;
+  }
 }
 @media(max-width: 767px) {
-  .home-image1 {
+  .home-image {
     width: 510px;
     height: 118px;
   }
@@ -328,9 +329,6 @@
 }
 @media(max-width: 479px) {
   .home-image {
-    left: -478px;
-  }
-  .home-image1 {
     width: 311px;
     height: 71px;
     padding-right: 0px;
@@ -345,5 +343,8 @@
   }
   .home-dropdown {
     margin-top: 120px;
+  }
+  .home-image1 {
+    left: -478px;
   }
 }
