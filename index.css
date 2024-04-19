@@ -66,6 +66,7 @@
 }
 .home-text {
   color: #ffffff;
+  z-index: 120;
   font-size: 14px;
   font-style: normal;
   text-align: center;
